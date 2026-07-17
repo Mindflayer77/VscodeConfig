@@ -1,0 +1,9 @@
+// Place your key bindings in this file to override the defaults
+[
+  { "key": "ctrl+up", "command": "spaceBlockJumper.moveUp", "when": "editorTextFocus" },
+  { "key": "ctrl+down", "command": "spaceBlockJumper.moveDown", "when": "editorTextFocus" },
+  { "key": "ctrl+shift+up", "command": "spaceBlockJumper.selectUp", "when": "editorTextFocus" },
+  { "key": "ctrl+shift+down", "command": "spaceBlockJumper.selectDown", "when": "editorTextFocus" },
+  { "key": "ctrl+alt+up", "command": "editor.action.insertCursorAbove", "when": "editorTextFocus" },
+  { "key": "ctrl+alt+down", "command": "editor.action.insertCursorBelow", "when": "editorTextFocus" }
+]
