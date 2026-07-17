@@ -37,8 +37,6 @@ Both steps run sequentially via `${workspaceFolder}/.venv/bin/ruff`, so Ruff mus
 | `Ctrl+Down` | `spaceBlockJumper.moveDown` | Jump cursor to the next code block |
 | `Ctrl+Shift+Up` | `spaceBlockJumper.selectUp` | Select up to the previous code block |
 | `Ctrl+Shift+Down` | `spaceBlockJumper.selectDown` | Select down to the next code block |
-| `Ctrl+Alt+Up` | `editor.action.insertCursorAbove` | Add a cursor on the line above |
-| `Ctrl+Alt+Down` | `editor.action.insertCursorBelow` | Add a cursor on the line below |
 
 To install: copy the contents into your user `keybindings.json` (Command Palette → `Preferences: Open Keyboard Shortcuts (JSON)`), or use `File > Preferences > Keyboard Shortcuts` and import individual bindings.
 
