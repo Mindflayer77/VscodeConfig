@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ruff-fix",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/bin/ruff check --fix --extend-select I \"${file}\"",
+      "presentation": { "reveal": "silent", "panel": "shared", "clear": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "ruff-format",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/bin/ruff format \"${file}\"",
+      "presentation": { "reveal": "silent", "panel": "shared" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Ruff: Fix & Format",
+      "dependsOn": ["ruff-fix", "ruff-format"],
+      "dependsOrder": "sequence",
+      "problemMatcher": []
+    }
+  ]
+}
